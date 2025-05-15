@@ -9,5 +9,5 @@ The focus is on learning by doing — keeping the code clean, simple, and functi
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/basic-model.git
+git clone https://github.com/Md-Shahid-S/basic-model.git
 cd basic-model
