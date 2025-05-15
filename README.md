@@ -7,22 +7,6 @@ The focus is on learning by doing — keeping the code clean, simple, and functi
 
 ---
 
-## 📁 Repository Structure
-
-basic-model/
-├── models/
-│ ├── model_01/
-│ ├── model_02/
-│ └── ...
-├── datasets/
-├── utils/
-├── README.md
-└── LICENSE
-
----
-
-## 🚀 Getting Started
-
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/your-username/basic-model.git
