@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ml-flask-docker-api
+    env: docker
+    repo: https://github.com/Md-Shahid-S/Basic-Models
+    branch: main
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: FLASK_ENV
+        value: production
