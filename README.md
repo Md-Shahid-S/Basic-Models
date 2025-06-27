@@ -1,13 +1,6 @@
-# 🧠 Basic Model Collection
+### Linear Regression
 
-This repository is a personal space where I practice building and understanding machine learning models.  
-Each folder contains an isolated implementation of a concept I'm exploring.
+### Reuirements
 
-The focus is on learning by doing — keeping the code clean, simple, and functional.
-
----
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/Md-Shahid-S/basic-model.git
-cd basic-model
+1. [Github](https://github.com)
+2. [VScode](https://code.visualstudio.com/)
