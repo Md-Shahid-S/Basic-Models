@@ -1,8 +1,7 @@
 Flask==3.1.1
+gunicorn
 numpy
 pandas
 scikit-learn
 joblib
-gunicorn
-Jinja2
-pickle5
+Jinja2  # optional if using render_template()
