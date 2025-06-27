@@ -16,7 +16,7 @@ with open('scaler.pkl', 'rb') as scaler_file:
 def home():
     return render_template('home.html')
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict_api', methods=['POST'])
 def predict():
     try:
         data = request.get_json()
@@ -43,6 +43,14 @@ def predict():
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+@app.route('/predict', methods=['POST'])
+def predict_form():
+    data = [float(x) for x in request.form.values()]
+    final_input = scaler.transform(np.array(data).reshape(1, -1))
+    prediction = model.predict(final_input)[0]
+
+    return render_template('home.html', prediction=prediction)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
